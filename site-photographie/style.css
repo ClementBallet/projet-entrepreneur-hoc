@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Nobile');
+
+*, body {
+    font-family: 'Nobile', sans-serif;
+    color: #313d61;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.section1 #Menu {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    background-image: linear-gradient(to bottom, #FFFFFF, #e2e2e2);
+    height: 130px;
+}
+
+.section1 #Menu .logo {
+    width: 100%;
+    height: 100%;
+}
+
+.section1 #Menu .logo img {
+    width: 100px;
+    height: 100px;
+    padding: 14px;
+    border: 0.5px solid black;
+}
+
+.section1 #Menu ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section2 {
+    background-color: red;
+}
+
+.section3 {
+    background-color: salmon;
+}

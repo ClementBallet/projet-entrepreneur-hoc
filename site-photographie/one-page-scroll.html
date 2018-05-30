@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- JS -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="jquery.onepage-scroll.js"></script>
+
+    <!-- CSS -->
+    <link href='onepage-scroll.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    
+    <!-- Appel de la fonction One Page Scroll -->
+    <script>
+        $(document).ready(function(){
+            $(".main").onepage_scroll({
+                sectionContainer: "section",
+                responsiveFallback: 600,
+                loop: true
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="main">
+        <section class="section1">
+            <nav id="Menu">
+                <div class="logo">
+                    <img src="image/logo_chris.png" alt="Logo Instant Carré">
+                </div>
+                <ul>
+                    <li>
+                       <a href="">Architecture</a> 
+                    </li>
+                    <li>
+                        <a href="">Intérieurs</a>
+                    </li>
+                    <li>
+                        <a href="">Design</a>
+                    </li>
+                    <li>
+                        <a href="">A propos</a>
+                    </li>
+                    <li>
+                        <a href="">Contact</a>
+                    </li>
+                </ul>
+            </nav> 
+
+            <div class="carousel">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+            </div>
+        </section>
+        <section class="section2">
+            sdsdvsdv
+        </section>
+        <section class="section3">
+            sdvsdvsdv
+        </section>
+        
+    </div>
+</body>
+</html>
